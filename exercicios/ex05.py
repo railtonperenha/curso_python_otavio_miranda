@@ -20,35 +20,35 @@ descrito, exiba a saudação apropriada. Ex.
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 '''
 
-# horas = input('Que horas são agora: ')
-# try:
-#     horas = int(horas)
-#     if horas >= 0 and horas <= 11:
-#         print('Bom Dia!')
-#     elif horas >= 12 and horas <= 17:
-#         print('Boa Tarde!')
-#     elif horas >= 18 and horas <= 23:
-#         print('Boa Noite!')
-#     else:
-#         print('Desconheço essa hora!')
-# except:
-#     print('Digite apenas números inteiros!')
+horas = input('Que horas são agora: ')
+try:
+    horas = int(horas)
+    if horas >= 0 and horas <= 11:
+        print('Bom Dia!')
+    elif horas >= 12 and horas <= 17:
+        print('Boa Tarde!')
+    elif horas >= 18 and horas <= 23:
+        print('Boa Noite!')
+    else:
+        print('Desconheço esse horário!')
+except:
+    print('Digite apenas números inteiros!')
 
 '''Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande".
 '''
 
-nome = input('Digite seu nome: ')
+# nome = input('Digite seu nome: ')
 
-tamanho_nome = len(nome)
+# tamanho_nome = len(nome)
 
-if tamanho_nome > 1:
-    if tamanho_nome <= 4:
-        print('Seu nome é curto!')
-    elif tamanho_nome <= 6:
-        print('Seu nome é normal!')
-    elif tamanho_nome > 6:
-        print('Seu nome é muito grande!')
-else:
-    print('Digite um nome com mais de uma letra!')
+# if tamanho_nome > 1:
+#     if tamanho_nome <= 4:
+#         print('Seu nome é curto!')
+#     elif tamanho_nome <= 6:
+#         print('Seu nome é normal!')
+#     elif tamanho_nome > 6:
+#         print('Seu nome é muito grande!')
+# else:
+#     print('Digite um nome com mais de uma letra!')
